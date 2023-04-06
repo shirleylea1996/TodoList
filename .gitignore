@@ -1,3 +1,22 @@
 .snowpack
 build
 node_modules
+# .gitignore for TypeScript projects
+
+# 编译生成的文件
+dist/
+out/
+
+# Node.js模块
+node_modules/
+
+# 日志文件
+*.log
+
+# 编辑器和操作系统生成的临时文件
+*.tmp
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
